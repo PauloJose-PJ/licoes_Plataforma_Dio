@@ -1,0 +1,38 @@
+header {
+  grid-area: header;
+  width: auto;
+  height: 60px;
+  margin: auto 0px;
+  background-color: #FFFFFF;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  gap: 32px;
+  margin-left: 24px;
+}
+
+#pesquisa figure {
+  width: 57px;
+  height: 40px;
+  background-color: #F8F8F8;
+  border: #CCCCCC solid 1px;
+}
+#pesquisa figure img {
+  padding: 7px 0px 0px 14px;
+}
+.pesquisa {
+  width: 348px;
+  height: 40px;
+  border: #CCCCCC solid 1px;
+}
+
+#opcoes {
+  gap: 24px;
+  margin-right: 24px;
+}
