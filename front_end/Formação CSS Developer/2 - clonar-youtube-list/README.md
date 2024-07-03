@@ -15,4 +15,4 @@
 
   Dica olhe bem o container pai e filho, pois talvez não funcionei porque a subordinação do tamanho do pai esteja dificultando o posicionamento do filho
 
-![list](https://github.com/PauloJose-PJ/licoes_Plataforma_Dio/assets/63321673/50ad17eb-0df0-49eb-a28f-d5d05d010ff8)
+![list](https://github.com/PauloJose-PJ/licoes_Plataforma_Dio/assets/63321673/5a8e74b7-69c6-4311-9b2a-33d6b9ca5b0f)
