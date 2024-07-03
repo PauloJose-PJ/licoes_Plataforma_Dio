@@ -1,0 +1,122 @@
+
+/*-------------- Sub-Modelos Centrais ---------------*/
+header {
+    background-image: url(../img/back-header.png);
+    height: 459px;
+    align-content: center;
+    text-align: center;
+}
+
+header span {
+    width: 313px;
+    font-size: 56px;
+    line-height: 56px;
+    font-family: 'Luckiest Guy';
+    font-weight: 400;
+    color: #ffffff;
+}
+
+header p {
+    margin: 0 auto;
+    max-width: 757px;
+    font-size: 16px;
+    line-height: 21.79px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    margin-top: 24px;
+    color: #ffffff;
+}
+.btn1 {
+    width: 205px;
+    margin-top: 24px;
+    margin-right: 16px;
+}
+.btn2 {
+    width: 281px;
+    color: #ffffff;
+    background-color: #23272A;
+}
+
+/*---------------------------- sections -----------------------------*/
+.sect1 {
+    display: flex;
+    max-width: 900px;
+    gap: 16px;
+    margin: 40px auto;
+    height: auto;
+    padding: 0px 40px;
+    justify-content: center;
+    align-self: center;
+}
+.descri_1 {
+    display: grid;
+    align-items: center;
+    gap: 16;
+}
+.descri {
+    display: grid;
+    align-items: center;
+    gap: 16px;
+}
+section h1 {
+    max-width: 329px;
+    line-height: 54.47px;
+    text-align: left;
+    align-self: end;
+}
+section p {
+    max-width: 348px;
+    text-align: left;
+    align-self: start;
+}
+
+.some {
+    display: none;
+}
+
+.sect2 {
+    align-items: center;
+    margin: 0px auto;
+    padding: 40px;
+}
+.sect2 h1 {
+    max-width: 608px;
+    line-height: 40px;
+    font-family: 'Luckiest Guy';
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: #23272A;
+}
+.sect2 p {
+    max-width: 802px;
+}
+
+/*--------------------- fundo ----------------------- */
+
+.imagem {
+    max-width: 72%;
+}
+
+figure {
+    margin: auto;
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+
+.cinza1 {
+    background: #F6F6F6;
+}
+
+/*--------------------- footer ----------------------*/
+footer {
+    height: 134px;
+    background-color: #23272A;
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    margin: 36px auto;
+}
