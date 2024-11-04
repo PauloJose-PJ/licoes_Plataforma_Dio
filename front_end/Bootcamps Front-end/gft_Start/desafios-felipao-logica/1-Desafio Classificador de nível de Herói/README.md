@@ -30,4 +30,4 @@ Ao final deve se exibir uma mensagem:
 - Eu fiz metade do curso de formação em Logica de Programação e JavaScript na Dio e no momento nada complicado.
 - Ruim foi o último exercicio tive que pedir ajuda ao ChatGPT, vergonha a dizer isso....
   
-![logica1](https://github.com/user-attachments/assets/fbf38556-b744-4ec5-9861-94c9c8b49ec4)
+![code](https://github.com/user-attachments/assets/7bc77dc2-1ba3-4d47-acde-fe98f4c43a43)
