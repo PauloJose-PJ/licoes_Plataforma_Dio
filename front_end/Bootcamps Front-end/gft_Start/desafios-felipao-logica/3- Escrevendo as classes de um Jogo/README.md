@@ -46,4 +46,5 @@ Ao final deve se exibir uma mensagem:
 - [x] Funções com repetições serão inevitáveis, pois acionando um botão levará a outra ação que talvez estará na mesma página carregando vários itens diferentes ao mesmo tempo requerendo várias funções simultâneas ou em repetições.
 - [x] Queria fazer algo especial um mini formulário que carregaria os dados input de vitória e derrota em duas variável cada só que tive dificuldade em acionar o dados de saída output e o acionamento do botão, pois sendo assim não perderei mais tempo e continuarei porque sairia do foco já que usei HTML, CSS e JS. 
 
-![logica2](https://github.com/user-attachments/assets/76d23b8a-3724-4c71-858c-b9c2d44f8761)
+![code](https://github.com/user-attachments/assets/0f2d273b-66db-4486-ae0d-b188cc17dc3a)
+
