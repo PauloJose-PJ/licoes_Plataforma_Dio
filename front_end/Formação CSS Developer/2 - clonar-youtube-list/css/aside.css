@@ -1,0 +1,29 @@
+aside {
+  grid-area: aside;
+  background-color: #FFFFFF;
+  padding: 28px;
+}
+
+aside ul li {
+  display: flex;
+  margin-bottom: 22px;
+  align-items: center;
+}
+
+li figure {
+ margin-right: 16px;
+}
+
+li h3 {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+}
+
+li span {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.41px;
+}

@@ -1,0 +1,30 @@
+article {
+  display: flex;
+  justify-content:space-evenly;
+}
+
+aside {
+  margin-top: 28px;
+}
+
+aside ul li {
+  width: 377px; 
+  list-style: none;
+  display: flex;
+  justify-content:baseline;
+}
+
+aside ul figure img {
+  width: 160px;
+  height: 100px;
+  margin: 0px 8.5px 8px 0px;
+}
+
+aside ul li div {
+  width: 180px;
+  height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 8px 8.5px;
+}
+

@@ -1,0 +1,149 @@
+@media screen and (min-width: 429px) and (max-width: 900px) {
+    header span {
+        width: 278px;
+        font-size: 37px;
+        line-height: 64px;
+    }
+    header p {
+        text-align: left;
+        padding: 0px 24px;
+    }
+    img {
+        width: 100%;
+    }
+
+    .cab_btn {
+        margin-top: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px
+    }
+    .btn1, .btn2 {
+        width: 381px;
+        min-width: 290px;
+        margin: 0
+    }
+/*------------------------------------------------------*/
+
+    .sect1 {
+        min-width: 320px;
+        margin: 40px 0px;
+        padding: 24px;
+        flex-wrap: wrap;        
+        text-align: left;
+    }
+    div.descri {
+        min-width: 319px;
+    }
+    div.descri h1 {
+        text-align: left;
+        width: 100%;
+        max-width: 850px;
+        min-width: 319px;
+        font-size: 32px;
+        line-height: 43px;
+    }
+    div.descri p {
+        max-width: 850px;
+        min-width: 319px;
+    }
+    .some {
+        display: inherit;
+        display: grid;
+        
+    }
+    .aparece {
+        display: none;
+    }
+
+    /*--------------------------------------------------------------------*/
+    .sect2 {
+        align-items: center;
+        margin: 40px 0px;
+        padding: 24px;
+        text-align: center;
+    }
+    .sect2 h1 {
+        font-size: 32px;
+        text-align: left;
+        width: 100%;
+        min-width: 290px;
+        line-height: 40px;
+        margin-bottom: 16px;
+        padding: 0px;
+    }
+}
+
+
+@media screen and (min-width: 319px) and (max-width: 428px) {
+    header span {
+        text-align: left;
+        font-size: 32px;
+        line-height: 32px;
+    }
+    header p {
+        text-align: left;
+        padding: 0px 24px;
+    }
+    img {
+        width: 100%;
+    }
+
+    .cab_btn {
+        margin-top: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px
+    }
+    .btn1, .btn2 {
+        width: 370px;
+        min-width: 250px;
+        margin: 0;
+        padding: 0px 10px;
+    }
+
+/*------------------------------------------------------------*/
+    .sect1 {
+        max-width: 350px;
+        min-width: 218px;
+        padding: 28px 28px;
+        flex-wrap: wrap;        
+        text-align: left;
+    }
+    div.descri h1 {
+        width: auto;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    div.descri p {
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+
+    .some {
+        display: inherit;
+        display: grid;
+    }
+    .aparece {
+        display: none;
+    }
+
+/*---------------------------------------------------------------*/
+    .sect2 {
+        align-items: center;
+        margin: 40px 0px;
+        padding: 24px;
+        text-align: center;
+    }
+    .sect2 h1 {
+        font-size: 32px;
+        text-align: left;
+        width: 100%;
+        min-width: 280px;
+        line-height: 32px;
+        margin-bottom: 16px;
+        padding: 0px;
+    }
+}

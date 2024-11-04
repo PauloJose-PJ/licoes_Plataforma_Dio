@@ -1,0 +1,48 @@
+/*----------------------  Profis  -------------------------*/
+#inicio_3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 20px 20px 20px;
+}
+
+h2:nth-child(even) {
+  background-color: #d2e4f7;
+}
+
+.doencia_sintomas {
+  width: 450px;
+  height: 300px;
+  padding: 40px;
+  border-radius: 2px solid #efeaea;
+  background: #ffff;
+  box-shadow: -4px 4px 15px rgba(0, 0, 0, 0.25);
+  overflow-y: scroll;
+}
+
+.doencia_sintomas ul {
+  color: #c1c1c1;
+  font-size: 20px;
+  background-color: #3b3838;
+}
+
+.doencia_sintomas ul ul{
+  list-style: none;
+  color: #000000;
+  font-size: 19px;
+  background-color: #d7f1da;
+}
+
+.container_tipo_doencas {
+  margin-bottom: 50px;
+  display: flex;
+  gap: 100px;
+}
+.inicio_3_foto_container {
+  width: 40%;
+}
+.inicio_3_foto3 {
+  width: 85%;
+}
+
+
+

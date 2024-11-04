@@ -1,0 +1,13 @@
+//////////////////////// ERRRADOO ///////////////////////////
+/////////////////////////////////////////////////////////////
+
+let nomes = ["Paulo", "Mariza","Veronica"];
+
+for (let i = 0; i < nomes.length; i++) {
+  const nome = nomes[i];
+//  const fatiarNome = nome.split("P", ",")
+  if (nomes.filter.toString === "V"){
+    console.log(nome);
+  }
+}
+/////////////////////////////////////////////////////////////

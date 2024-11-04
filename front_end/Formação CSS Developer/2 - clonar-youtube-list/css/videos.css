@@ -1,0 +1,56 @@
+.conteudo-videos main ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: auto;
+  padding: 28px;
+}
+
+.videos {
+  width: 250px;
+  height: 140.29px;
+  margin-right:none;
+  display: flex;
+  align-content: center;
+  align-items: end;
+}
+
+article {
+  grid-area: article;
+  background-color:#F9F9F9;
+}
+
+article main ul li {
+  display: grid;
+  width: 282px;
+  height: 246px;
+  padding: 16px;
+}
+
+article main ul li div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 74px;
+}
+
+article main ul li div div {
+  width: 229px;
+  display: inline-block
+}
+
+article main ul li div figure {
+  width: 42px;
+  height: 74px;
+}
+
+article main ul li div h3 {
+  width: 197px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+@media (max-width: 1366px) {
+  .conteudo-videos main ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

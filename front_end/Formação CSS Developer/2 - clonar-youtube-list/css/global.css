@@ -1,0 +1,27 @@
+.template-areas {
+  display: inline-grid;
+  width: 100%;
+  grid-template-areas:
+    "header header"
+    "aside article"
+  ;
+}
+
+header aside article {
+  justify-items: center;
+}
+
+h3 {
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+}
+
+p {
+font-family: "Roboto";
+font-size: 12px;
+font-weight: 400;
+line-height: 16.41px;
+color: #515151;
+}

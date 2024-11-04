@@ -1,0 +1,133 @@
+body {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+
+/* --------------- Tabela1 ----------------- */
+table {
+  font-style: italic;
+  border: black solid 2px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+tr:nth-child(even) {
+  background-color: #d2e4f7;
+}
+/*--------------------------------------------*/
+
+article {
+  background-color: white;
+  height: auto;
+  width: 95.7%;
+  height: auto;
+  margin: 40px 2px 20px 20px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  color: #71c4ba;
+  border-bottom: #d3eeeb solid 10px;
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+
+h2 {
+  color: #71c4ba;
+  border-bottom: #82c7bf solid 2px;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+funcoes_h2 {
+  position: fixed;
+}
+
+hr {
+  border: #d3eeeb solid 7px;
+}
+
+header img {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  background-size: 100%;
+}
+
+footer img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-size: 100%;
+}
+
+body {
+  width: auto;
+  height: auto;
+}
+
+section {
+  width: auto;
+  height: auto;
+}
+
+/* ------------------------ Componentes -------------------------- */
+
+.medicos-list {
+  width: 295px;
+  height: 55px;
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  border-radius: 8px 8px 0px 0px;
+  transition: 0.6s;
+}
+
+.texto-medicos {
+  width: 250px;
+  height: auto;
+  text-align: center;
+  font-size: 16px;
+  font-family: arial;
+  padding: 8px 20px;
+  box-shadow: -6px 4px 9px 2px rgba(0, 0, 0, 0.142);
+}
+
+.texto-medicos:hover {
+  box-shadow: none;
+  border: #afc4c4 solid 1px;
+  border-top: none;
+}
+
+.psiquiatra {
+  background: #c2dddd;
+  color: #475d5d;
+}
+.psicologo {
+  background: #daf1dd;
+  color: #425244;
+}

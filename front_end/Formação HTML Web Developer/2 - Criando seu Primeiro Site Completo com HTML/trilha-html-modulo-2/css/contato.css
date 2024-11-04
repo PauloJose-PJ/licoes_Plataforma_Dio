@@ -1,0 +1,56 @@
+#inicio_5 {
+  background-color: #5bb6bf;
+  width: 600px;
+  height: 700px;
+  margin: 0 auto 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_contato {
+  width: 450px;
+  height: 500px;
+  margin-bottom: 10px;
+  padding: 25px;
+  background-color: #c8e0dc;
+}
+
+.fieldLabel {
+  width: 150px;
+}
+
+.fieldLabel label {
+  font-size: 18px;
+}
+
+.fieldLabel input {
+  margin-bottom: 15px;
+  font-size: 18px;
+  width: 300px;
+  padding: 5px;
+  border-radius: 1px 8px;
+}
+
+textarea {
+  margin: 20px 0;
+  font-size: 18px;
+  border-radius: 12px;
+}
+
+.fieldButton {
+  display: flex;
+  width: 250px;
+  margin-bottom: 35px;
+  justify-content: space-between;
+}
+
+.fieldButton button {
+  font-size: 18px;
+  padding: 4px 16px 4px 16px;
+  border-radius: 8px 2px; 
+}
+
+.fieldButton button:hover {
+  background-color: #bac8c6; 
+}
