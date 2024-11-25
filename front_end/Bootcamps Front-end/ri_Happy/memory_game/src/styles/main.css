@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(
+        325deg, 
+        #d6cdcd 50%,
+        #ffffff 100%
+    );
+}
+
+/* https://cssgradient.io/ */
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: linear-gradient(
+        325deg, 
+        #d0cfdf 25%,
+        #dcdbe6 50%, 
+        #eeeef3  75%,
+        #ffffff 100%
+        );
+    box-shadow: #000 10px 20px 40px;
+    padding: 40px 60px;
+}
+
+h2 {
+    font-size: 3em;
+    color: #a79f9f;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.reset {
+    padding: 15px 20px;
+    width: 100%;
+    color: #000000;
+    background-color: #b6b6b6;
+    border: #868686 solid 2px;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;   
+}
+
+.reset:hover {
+    color: #e9d4d4;
+    background-color: #c51111;
+    border: #d61e1e solid 2px;
+}
+
+.game {
+    width: 870px;
+    height: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+}
+
+.item {
+    position: relative;
+    width: 100px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        325deg, 
+        #ffffff 25%,
+        #e4dee2 50%,
+        #e4dbe2 100%
+        );
+    border:#646464 solid 2px;
+    border-radius: 8px;
+    font-size: 3em;
+    transform: rotateY(180deg);
+    transition: 0.2s;
+/*
+    opacity: 50%;
+*/
+    cursor: pointer;
+}
+
+.item:hover {
+    background: #ffffff;
+}
+
+.item::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:#0a001f;
+    transition: 0.25s;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;    
+    font-size: 5em;
+}  
+
+.item.boxOpen {
+    transform: rotateY(0deg);
+}
+
+.boxOpen::after,
+.boxMatch::after {
+    transform: rotateY(180deg);
+}
