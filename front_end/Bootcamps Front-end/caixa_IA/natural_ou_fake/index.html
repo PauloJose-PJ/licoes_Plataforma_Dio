@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Site de Vídeos</title>
+		<link rel="stylesheet" href="./src/css/style.css" />
+
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			body {
+				font-family: Arial, sans-serif;
+				background-color: #e9eef1;
+				color: #333;
+			}
+
+			header {
+				background-color: #007bff;
+				color: white;
+				text-align: center;
+				padding: 20px;
+				font-size: 1.5rem;
+			}
+
+			section {
+				background-color: white;
+				margin: 20px auto;
+				padding: 20px;
+				border-radius: 8px;
+				box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+				max-width: 800px;
+			}
+
+			main {
+				text-align: center;
+			}
+
+			video {
+				width: 100%;
+				max-width: 640px;
+				border-radius: 8px;
+			}
+
+			div.buttons {
+				margin: 20px;
+				width: auto;
+			}
+
+			.buttons button {
+				background-color: #007bff;
+				color: #fff;
+				margin-left: 15px;
+				border: #cad2da solid 4px;
+				width: 150px;
+				height: 50px;
+				padding: 10px 20px;
+				font-size: 18px;
+				border-radius: 8px;
+				cursor: pointer;
+				transition: 0.3s;
+			}
+
+			.buttons button:hover {
+				background-color: #0055af;
+				border: #eef2f7 solid 4px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>Natural ou Fake</header>
+		<section>
+			<main>
+				<video id="videoPlayer" controls>
+					<source src="./src/movies/video1.mp4" type="video/mp4" />
+				</video>
+				<div class="buttons">
+					<button onclick="changeVideo('./videos/video1.mp4')">
+						Inglês
+					</button>
+					<button onclick="changeVideo('./videos/video2.mp4')">
+						Português
+					</button>
+					<button onclick="changeVideo('./videos/video3.mp4')">
+						Tutorial
+					</button>
+				</div>
+			</main>
+		</section>
+
+		<script>
+			function changeVideo(videoSrc) {
+				const videoPlayer = document.getElementById("videoPlayer");
+				videoPlayer.src = videoSrc;
+				videoPlayer.play();
+			}</script>
+	</body>
+</html>
